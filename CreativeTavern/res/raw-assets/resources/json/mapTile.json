@@ -1,9 +1,9 @@
 [
     {
-        "_id": 0,
-        "_enable": true,
-        "_type": 6,
-        "_join": [
+        "id": 0,
+        "enable": true,
+        "type": 6,
+        "join": [
             0,
             0,
             0,
@@ -11,10 +11,10 @@
         ]
     },
     {
-        "_id": 1,
-        "_enable": true,
-        "_type": 6,
-        "_join": [
+        "id": 1,
+        "enable": true,
+        "type": 6,
+        "join": [
             1,
             1,
             1,
@@ -22,10 +22,10 @@
         ]
     },
     {
-        "_id": 2,
-        "_enable": true,
-        "_type": 6,
-        "_join": [
+        "id": 2,
+        "enable": true,
+        "type": 6,
+        "join": [
             2,
             2,
             2,
@@ -33,10 +33,10 @@
         ]
     },
     {
-        "_id": 3,
-        "_enable": true,
-        "_type": 6,
-        "_join": [
+        "id": 3,
+        "enable": true,
+        "type": 6,
+        "join": [
             2,
             2,
             2,
@@ -44,10 +44,10 @@
         ]
     },
     {
-        "_id": 4,
-        "_enable": true,
-        "_type": 2,
-        "_join": [
+        "id": 4,
+        "enable": true,
+        "type": 2,
+        "join": [
             0,
             1,
             2,
@@ -55,10 +55,10 @@
         ]
     },
     {
-        "_id": 5,
-        "_enable": true,
-        "_type": 2,
-        "_join": [
+        "id": 5,
+        "enable": true,
+        "type": 2,
+        "join": [
             1,
             1,
             0,
@@ -66,10 +66,10 @@
         ]
     },
     {
-        "_id": 6,
-        "_enable": true,
-        "_type": 2,
-        "_join": [
+        "id": 6,
+        "enable": true,
+        "type": 2,
+        "join": [
             1,
             1,
             2,
@@ -77,10 +77,10 @@
         ]
     },
     {
-        "_id": 7,
-        "_enable": true,
-        "_type": 3,
-        "_join": [
+        "id": 7,
+        "enable": true,
+        "type": 3,
+        "join": [
             0,
             1,
             0,
@@ -88,10 +88,10 @@
         ]
     },
     {
-        "_id": 8,
-        "_enable": true,
-        "_type": 3,
-        "_join": [
+        "id": 8,
+        "enable": true,
+        "type": 3,
+        "join": [
             0,
             2,
             2,
@@ -99,10 +99,10 @@
         ]
     },
     {
-        "_id": 9,
-        "_enable": true,
-        "_type": 3,
-        "_join": [
+        "id": 9,
+        "enable": true,
+        "type": 3,
+        "join": [
             0,
             2,
             1,
@@ -110,10 +110,10 @@
         ]
     },
     {
-        "_id": 10,
-        "_enable": true,
-        "_type": 0,
-        "_join": [
+        "id": 10,
+        "enable": true,
+        "type": 0,
+        "join": [
             0,
             0,
             2,
@@ -121,10 +121,10 @@
         ]
     },
     {
-        "_id": 11,
-        "_enable": true,
-        "_type": 4,
-        "_join": [
+        "id": 11,
+        "enable": true,
+        "type": 4,
+        "join": [
             0,
             2,
             0,
@@ -132,10 +132,10 @@
         ]
     },
     {
-        "_id": 12,
-        "_enable": true,
-        "_type": 5,
-        "_join": [
+        "id": 12,
+        "enable": true,
+        "type": 5,
+        "join": [
             0,
             1,
             1,
@@ -143,10 +143,10 @@
         ]
     },
     {
-        "_id": 13,
-        "_enable": true,
-        "_type": 0,
-        "_join": [
+        "id": 13,
+        "enable": true,
+        "type": 0,
+        "join": [
             0,
             0,
             1,
@@ -154,10 +154,10 @@
         ]
     },
     {
-        "_id": 14,
-        "_enable": true,
-        "_type": 0,
-        "_join": [
+        "id": 14,
+        "enable": true,
+        "type": 0,
+        "join": [
             0,
             0,
             1,
@@ -165,10 +165,10 @@
         ]
     },
     {
-        "_id": 15,
-        "_enable": true,
-        "_type": 0,
-        "_join": [
+        "id": 15,
+        "enable": true,
+        "type": 0,
+        "join": [
             0,
             1,
             2,
@@ -176,10 +176,10 @@
         ]
     },
     {
-        "_id": 16,
-        "_enable": true,
-        "_type": 0,
-        "_join": [
+        "id": 16,
+        "enable": true,
+        "type": 0,
+        "join": [
             0,
             0,
             2,
@@ -187,10 +187,10 @@
         ]
     },
     {
-        "_id": 17,
-        "_enable": true,
-        "_type": 0,
-        "_join": [
+        "id": 17,
+        "enable": true,
+        "type": 0,
+        "join": [
             0,
             0,
             2,
@@ -198,10 +198,10 @@
         ]
     },
     {
-        "_id": 18,
-        "_enable": true,
-        "_type": 1,
-        "_join": [
+        "id": 18,
+        "enable": true,
+        "type": 1,
+        "join": [
             2,
             1,
             2,
@@ -209,10 +209,10 @@
         ]
     },
     {
-        "_id": 19,
-        "_enable": true,
-        "_type": 1,
-        "_join": [
+        "id": 19,
+        "enable": true,
+        "type": 1,
+        "join": [
             1,
             2,
             1,
@@ -220,10 +220,10 @@
         ]
     },
     {
-        "_id": 20,
-        "_enable": true,
-        "_type": 1,
-        "_join": [
+        "id": 20,
+        "enable": true,
+        "type": 1,
+        "join": [
             0,
             2,
             1,
@@ -231,10 +231,10 @@
         ]
     },
     {
-        "_id": 21,
-        "_enable": true,
-        "_type": 3,
-        "_join": [
+        "id": 21,
+        "enable": true,
+        "type": 3,
+        "join": [
             0,
             1,
             2,
@@ -242,10 +242,10 @@
         ]
     },
     {
-        "_id": 22,
-        "_enable": true,
-        "_type": 1,
-        "_join": [
+        "id": 22,
+        "enable": true,
+        "type": 1,
+        "join": [
             2,
             2,
             1,
@@ -253,10 +253,10 @@
         ]
     },
     {
-        "_id": 23,
-        "_enable": true,
-        "_type": 3,
-        "_join": [
+        "id": 23,
+        "enable": true,
+        "type": 3,
+        "join": [
             0,
             2,
             0,
@@ -264,10 +264,10 @@
         ]
     },
     {
-        "_id": 24,
-        "_enable": true,
-        "_type": 1,
-        "_join": [
+        "id": 24,
+        "enable": true,
+        "type": 1,
+        "join": [
             2,
             2,
             0,
@@ -275,10 +275,10 @@
         ]
     },
     {
-        "_id": 25,
-        "_enable": true,
-        "_type": 1,
-        "_join": [
+        "id": 25,
+        "enable": true,
+        "type": 1,
+        "join": [
             1,
             1,
             2,

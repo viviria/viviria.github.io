@@ -1,0 +1,315 @@
+[
+    {
+        "id": 0,
+        "name": "リン",
+        "image": "rin",
+        "point": 2,
+        "food": [
+            [
+                3
+            ]
+        ],
+        "specialCustomer": [
+            1
+        ],
+        "specialCustomerPoint": [
+            1
+        ],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 1,
+        "name": "ヴェンダー",
+        "image": "vender",
+        "point": 1,
+        "food": [
+            [
+                0
+            ]
+        ],
+        "specialCustomer": [
+            0
+        ],
+        "specialCustomerPoint": [
+            3
+        ],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 2,
+        "name": "ウナテ",
+        "image": "unate",
+        "point": 3,
+        "food": [
+            [
+                3,
+                3
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 3,
+        "name": "セリオン",
+        "image": "serion",
+        "point": 3,
+        "food": [
+            [
+                2,
+                2
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 4,
+        "name": "誘拐犯のカッパ",
+        "image": "kappa",
+        "point": 4,
+        "food": [
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 5,
+        "name": "三足教の兵士",
+        "image": "heishi",
+        "point": 4,
+        "food": [
+            [
+                0,
+                3
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 6,
+        "name": "オシオ",
+        "image": "oshio",
+        "point": 3,
+        "food": [
+            [
+                0,
+                1
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 7,
+        "name": "ミツセ",
+        "image": "mitsuse",
+        "point": 1,
+        "food": [
+            [
+                1
+            ]
+        ],
+        "specialCustomer": [
+            11
+        ],
+        "specialCustomerPoint": [
+            2
+        ],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 8,
+        "name": "カタヨク",
+        "image": "katayoku",
+        "point": 2,
+        "food": [
+            [
+                1,
+                1
+            ]
+        ],
+        "specialCustomer": [
+            9
+        ],
+        "specialCustomerPoint": [
+            1
+        ],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 9,
+        "name": "ハヤテ",
+        "image": "hayate",
+        "point": 2,
+        "food": [
+            [
+                0,
+                0
+            ]
+        ],
+        "specialCustomer": [
+            8
+        ],
+        "specialCustomerPoint": [
+            1
+        ],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 10,
+        "name": "癒す三足教の信者",
+        "image": "shinja",
+        "point": 4,
+        "food": [
+            [
+                1,
+                2
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 11,
+        "name": "ソウズカ",
+        "image": "souzuka",
+        "point": 2,
+        "food": [
+            [
+                2
+            ]
+        ],
+        "specialCustomer": [
+            7
+        ],
+        "specialCustomerPoint": [
+            2
+        ],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 12,
+        "name": "赤龍",
+        "image": "akaryu",
+        "point": 3,
+        "food": [
+            [
+                4
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [
+            0
+        ],
+        "specialFoodPoint": [
+            3
+        ],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 13,
+        "name": "イサ",
+        "image": "isa",
+        "point": 4,
+        "food": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                4
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [
+            1
+        ],
+        "specialFoodPoint": [
+            1
+        ],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 14,
+        "name": "雪山の民",
+        "image": "yukiyama",
+        "point": 3,
+        "food": [
+            [
+                2,
+                2
+            ],
+            [
+                4
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [
+            2
+        ],
+        "specialFoodPoint": [
+            2
+        ],
+        "isSpecialFoodGet": false
+    },
+    {
+        "id": 15,
+        "name": "Veacock",
+        "image": "veacock",
+        "point": 4,
+        "food": [
+            [
+                5,
+                5,
+                5,
+                5
+            ]
+        ],
+        "specialCustomer": [],
+        "specialCustomerPoint": [],
+        "specialFood": [],
+        "specialFoodPoint": [],
+        "isSpecialFoodGet": false
+    }
+]
