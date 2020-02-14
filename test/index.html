@@ -1,16 +1,45 @@
 <html>
+	<script>
+		(function () {
+  'use strict';
+
+  function parse() {
+    const parameters = {};
+    const hashes = location.search.substring(1).split('&');
+    for (let i = 0; i < hashes.length; i++) {
+      const hash = hashes[i].split('=', 2);
+      parameters[hash[0]] = hash[1];
+    }
+    window.parameters = parameters;
+  }
+
+  function setFunction() {
+    window.getParameters = function(param) {
+      if (window.parameters) {
+        if (window.parameters[param]) {
+          return window.parameters[param];
+        }
+      }
+      return null;
+    }
+    window.removeParameter = function(param) {
+      if (window.parameters[param]) {
+        window.parameters[param] = null;
+      }
+    }
+    window.removeAllParameters = function() {
+      window.parameters = null;
+    }
+  }
+
+  parse();
+  setFunction();
+})();
+	</script>
 <body>
     <dev>
-        <input type="button" value="Trigger" onclick="onClick()"/>
+        <script>window.getParameters("data")</script>
     </dev>
 </body>
-<script>
-    function onClick () {
-        // One of them sets up the URL scheme
-        document.location = 'testkey://a=1&b=2';
-		console.log("trigger");
-		console.log(parent);
-    }
-</script>
 </html>
 
