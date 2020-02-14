@@ -38,7 +38,7 @@
 	</script>
 <body>
     <dev>
-        <script>document.write(window.getParameters("data"))</script>
+        <script>document.write(decodeURI(window.getParameters("data")))</script>
     </dev>
 </body>
 </html>
