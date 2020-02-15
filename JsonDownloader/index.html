@@ -14,6 +14,9 @@
       }
     </style>
   </head>
+  <script src="lib/base64.js"></script>
+  <script src="lib/rawdeflate.js"></script>
+  <script src="lib/rawinflate.js"></script>
 	<script type='text/javascript'>
 		(function () {
       'use strict';
@@ -59,7 +62,11 @@
       const fileName = getFileName();
       document.getElementById("download").setAttribute("download", fileName);
 
-      const json = decodeURI(data);
+      let json = decodeURI(data);
+      if (json.indexOf("{") <= 0) {
+        json = Base64.btou(RawDeflate.inflate(Base64.fromBase64(json)));
+      }
+
       const blob = new Blob([json], { "type": "application/json"});
       if (window.navigator.msSaveBlob) {
         window.navigator.msSaveBlob(blob, fileName);
