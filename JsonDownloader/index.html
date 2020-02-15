@@ -43,15 +43,24 @@
     })();
 
     function getFileName() {
-      return (decodeURI(window.getParameters("name")) || "map") + ".json";
+      const name = window.getParameters("name");
+      if (name) {
+        return decodeURI(name) + ".json";
+      }
+      return "map.json";
     }
 
     function downloader() {
+      const data = window.getParameters("data");
+      if (!data) {
+        return;
+      }
+
       const fileName = getFileName();
       document.getElementById("download").setAttribute("download", fileName);
 
-      const data = decodeURI(window.getParameters("data")) || "{}";
-      const blob = new Blob([data], { "type": "application/json"});
+      const json = decodeURI(data);
+      const blob = new Blob([json], { "type": "application/json"});
       if (window.navigator.msSaveBlob) {
         window.navigator.msSaveBlob(blob, fileName);
         window.navigator.msSaveOrOpenBlob(blob, fileName);
