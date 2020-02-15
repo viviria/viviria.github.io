@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+  <head>
+    <meta charset=“UFT-8”>
+    <title>Json Downloader</title>
+    <style type="text/css">
+      #download {
+        color: #fff;
+        background: #5876a3;
+        padding: 10px 30px;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+	<script type='text/javascript'>
+		(function () {
+      'use strict';
+      function parse() {
+        const parameters = {};
+        const hashes = location.search.substring(1).split('&');
+        for (let i = 0; i < hashes.length; i++) {
+          const hash = hashes[i].split('=', 2);
+          parameters[hash[0]] = hash[1];
+        }
+        window.parameters = parameters;
+      }
+
+      function setFunction() {
+        window.getParameters = function(param) {
+          if (window.parameters) {
+            if (window.parameters[param]) {
+              return window.parameters[param];
+            }
+          }
+          return null;
+        }
+      }
+
+      parse();
+      setFunction();
+    })();
+
+    function getFileName() {
+      return (decodeURI(window.getParameters("name")) || "map") + ".json";
+    }
+
+    function downloader() {
+      const fileName = getFileName();
+      document.getElementById("download").setAttribute("download", fileName);
+
+      const data = decodeURI(window.getParameters("data")) || "{}";
+      const blob = new Blob([data], { "type": "application/json"});
+      if (window.navigator.msSaveBlob) {
+        window.navigator.msSaveBlob(blob, fileName);
+        window.navigator.msSaveOrOpenBlob(blob, fileName);
+      } else {
+        document.getElementById("download").href = window.URL.createObjectURL(blob);
+      }
+    }
+	</script>
+<body>
+    <dev>
+      <a id="download" href="#" onclick="downloader()" download="">ダウンロード</a>
+    </dev>
+</body>
+</html>
+
